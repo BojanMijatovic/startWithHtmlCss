@@ -1,9 +1,22 @@
+<<<<<<< HEAD
 section {
   background: #ff6347;
   color: black;
+=======
+body {
+  font-family: 'Muli', sans-serif;
+>>>>>>> css
 }
 
-h1 {
-  color: white;
-  font-family: 'Muli', sans-serif;
+#product-overview {
+  background: #ee615c;
+  padding: 20px;
+}
+
+#product-overview h1 {
+  color: #f5f5f5;
+}
+
+.section-title {
+  color: #048600;
 }
