@@ -5,6 +5,7 @@ body {
 #product-overview {
   background: #ee615c;
   padding: 20px;
+  border-color: black;
 }
 
 #product-overview h1 {
