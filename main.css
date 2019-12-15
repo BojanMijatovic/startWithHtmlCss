@@ -19,14 +19,26 @@ body {
 }
 
 .section-title {
-  color: #048600;
+  color: #2bb851;
 }
 
 
 /*  Header */
 .main-header {
-  background: #048600;
+  background: #2bb851;
   width: 100%;
-  padding: 5px;
+  padding: 5px 10px;
   color: #f5f5f5;
+}
+
+.nav-logo {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+}
+
+.main-nav__item {
+  display: inline-block;
 }
