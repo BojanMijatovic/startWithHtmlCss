@@ -1,8 +1,11 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
 section {
   background: #ff6347;
 }
 
 h1 {
   color: white;
-  font-family: 'Muli', sans-serif;
 }
