@@ -78,6 +78,7 @@
 
  .main-nav__item a:hover {
    color: white;
+   background-color: turquoise;
  }
 
  .main-nav__item a:active {
