@@ -83,4 +83,5 @@
 
  .main-nav__item a:active {
    color: white;
+   background-color: turquoise;
  }
