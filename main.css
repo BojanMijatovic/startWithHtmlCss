@@ -109,3 +109,24 @@
    color: white;
    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
  }
+
+ .plan__annotation {
+   color: #19b84c;
+   background: white;
+   padding: 5px;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+   font-weight: 700;
+   border-radius: 5px;
+ }
+
+ .plan__features {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .plan__features li {
+   font-size: 18px;
+   font-weight: 600;
+   margin: 8px 0;
+ }
