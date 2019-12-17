@@ -185,17 +185,17 @@
    margin: 30px;
  }
 
- .key--list {
+ .key-list {
    list-style: none;
  }
 
- .key--list__item {
+ .key-list__item {
    display: inline-block;
    text-align: center;
    width: 30%;
  }
 
- .key--list__item p {
+ .key-list__description {
    font-size: 19px;
    font-weight: 700;
    color: white;
