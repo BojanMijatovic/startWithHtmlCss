@@ -14,7 +14,7 @@
 
  /*  Product */
  #product-overview {
-   background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 10%, transparent), url('./img/freedom.jpg') center/cover;
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 10%, transparent), url('./img/freedom.jpg') center/cover no-repeat;
    /* background-size: cover;
    background-repeat: no-repeat;
    background-position: center; */
@@ -36,7 +36,7 @@
  .section-title {
    color: #2bb851;
    text-align: center;
-   font-size: 2.8rem;
+   font-size: 2.2rem;
  }
 
 
@@ -118,20 +118,11 @@
 
  /*  Section Plans */
 
- .plan__lists {
-   width: 95%;
-   margin: auto;
- }
-
-
  .plan {
    background: #d5ffdc;
    text-align: center;
    padding: 1.6rem;
-   margin: 0.8rem;
-   display: inline-block;
-   width: 30%;
-   vertical-align: middle;
+   margin: 1rem 0;
  }
 
 
@@ -152,7 +143,6 @@
  .plan--highlighted {
    background: #19b84c;
    color: white;
-   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
  }
 
  .plan__annotation {
@@ -246,14 +236,13 @@
 
  .key-list {
    list-style: none;
+   text-align: center;
+   margin: 0 auto;
  }
 
  .key-list__item {
-   display: inline-block;
    text-align: center;
-   width: 30%;
-   margin: 0;
-   padding: 0;
+   margin: 0 auto;
  }
 
  .key-list__description {
@@ -309,12 +298,40 @@
  @media(min-width:30rem) {
 
    #product-overview {
-     height: 60vh;
+     height: 78vh;
      background-position: 50% 25%;
    }
 
    #product-overview h1 {
      font-size: 3rem;
+   }
+
+   .plan__lists {
+     width: 100%;
+     text-align: center;
+   }
+
+   .plan {
+     width: 30%;
+     display: inline-block;
+     vertical-align: middle;
+     min-width: 13rem;
+     max-width: 25rem;
+   }
+
+   .plan--highlighted {
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+   }
+
+   .key-list {
+     display: inline-block;
+     width: 100%;
+   }
+
+   .key-list__item {
+     text-align: center;
+     display: inline-block;
+     width: 33%;
    }
  }
 
@@ -329,6 +346,10 @@
 
    #product-overview h1 {
      font-size: 3.8rem;
+   }
+
+   .plan {
+     margin: 2rem;
    }
  }
 
