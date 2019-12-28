@@ -19,7 +19,7 @@
    background-repeat: no-repeat;
    background-position: center; */
    width: 100%;
-   height: 65vh;
+   height: 54vh;
    position: relative;
  }
 
@@ -29,7 +29,7 @@
    left: 3%;
    color: white;
    font-weight: 700;
-   font-size: 2.5rem;
+   font-size: 2rem;
  }
 
 
@@ -301,4 +301,45 @@
  .main-footer__link a:hover,
  .main-footer__link a:active {
    color: #cccccc;
+ }
+
+
+ /*  Media query */
+
+ @media(min-width:30rem) {
+
+   #product-overview {
+     height: 60vh;
+     background-position: 50% 25%;
+   }
+
+   #product-overview h1 {
+     font-size: 3rem;
+   }
+ }
+
+
+
+ @media(min-width:76rem) {
+
+   #product-overview {
+     height: 80vh;
+     background-position: 70% 25%;
+   }
+
+   #product-overview h1 {
+     font-size: 3.8rem;
+   }
+ }
+
+ @media(min-width:100rem) {
+
+   #product-overview {
+     height: 80vh;
+     background-position: 70% 25%;
+   }
+
+   #product-overview h1 {
+     font-size: 3.8rem;
+   }
  }
