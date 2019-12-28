@@ -226,7 +226,6 @@
  #key-features {
    background: #ee615c;
    margin-top: 8rem;
-   padding: 1.6rem;
  }
 
  #key-features .section-title {
@@ -236,8 +235,8 @@
 
  .key-list {
    list-style: none;
-   text-align: center;
-   margin: 0 auto;
+   margin: 0;
+   padding: 0;
  }
 
  .key-list__item {
@@ -326,10 +325,10 @@
    .key-list {
      display: inline-block;
      width: 100%;
+     vertical-align: top;
    }
 
    .key-list__item {
-     text-align: center;
      display: inline-block;
      width: 33%;
    }
